@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="Empowering the Nation"></a>
+        </div>
+        <div class="user-actions">
+            <a href="cart.html">Cart</a> <a href="contact-details.html">Contact</a>
+        </div>
+    </header>
+    <main>
+        <h1>Cart</h1>
+        <section id="cart-items-container">
+            <p id="cart-empty-message" style="display: none;">Cart is empty.</p>
+        </section>
+        <section class="cart-total">
+            <button id="clear-cart-button" class="calculate-button">Clear Cart</button>
+            <div class="total-amount">
+                <span>Total</span>
+                <span id="cart-total-amount">R0</span>
+            </div>
+        </section>
+    </main>
+    <a href="javascript:history.back()" class="back-button">&#8592; Back</a>
+    <script src="script.js"></script>
+</body>
+</html>
